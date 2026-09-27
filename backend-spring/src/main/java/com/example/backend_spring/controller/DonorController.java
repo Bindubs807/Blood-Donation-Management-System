@@ -15,6 +15,8 @@ import java.util.Map;
 @CrossOrigin(origins = "http://localhost:3000")
 public class DonorController {
 
+    // Handles donor management, eligibility checks, and ML-based donation predictions.
+
     @Autowired
     private DonorService donorService;
 
